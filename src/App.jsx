@@ -1,4 +1,5 @@
 import AboutUs from './components/AboutUs'
+import Blog from './components/Blog'
 import FoodDiscound from './components/FoodDiscound'
 import Header from './components/Header'
 import Offer from './components/Offer'
@@ -14,6 +15,7 @@ const App = () => {
     <Offer/>
     <Pricing/>
     <FoodDiscound/>
+    <Blog/>
     </>
   )
 }
