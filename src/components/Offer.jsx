@@ -1,8 +1,8 @@
 import Button from "./Button"
 
-const Offer = (props) => {
+const Offer = () => {
   return (
-    <section className={`bg-[url(/assets/${props.img})] h-[60vh] bg-center bg-cover bg-no-repeat text-[--primary-dark] ${props.fDirection} `}>
+    <section className={`bg-[url(/assets/frenchfriesbg.png)] h-[60vh] bg-center bg-cover bg-no-repeat text-[--primary-dark]`}>
       <div className="flex flex-col gap-4 max-w-lg pt-20 pl-12">
       <h4 className="text-3xl font-bold">Special</h4>
       <h2 className="text-5xl font-extrabold">Sale 50% Discound</h2>

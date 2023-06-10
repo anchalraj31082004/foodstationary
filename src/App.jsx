@@ -1,4 +1,5 @@
 import AboutUs from './components/AboutUs'
+import FoodDiscound from './components/FoodDiscound'
 import Header from './components/Header'
 import Offer from './components/Offer'
 import Pricing from './components/Pricing'
@@ -10,8 +11,9 @@ const App = () => {
     <Header/>
     <AboutUs/>
     <Services/>
-    <Offer img={`frenchfriesbg.png`}/>
+    <Offer/>
     <Pricing/>
+    <FoodDiscound/>
     </>
   )
 }
