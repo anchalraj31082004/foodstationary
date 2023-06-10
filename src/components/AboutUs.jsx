@@ -3,7 +3,7 @@ import AboutCard from './AboutCard'
 
 const AboutUs = () => {
   return (
-    <section className='h-screen flex flex-col items-center text-center pt-10 '>
+    <section className=' flex flex-col items-center text-center pt-10 '>
       <div className='flex flex-col gap-5'> 
         <div className='bg-[url(/assets/aboutUsBg.png)] bg-no-repeat bg-center bg-contain h-auto w-auto'>
             <h2 className=' text-3xl font-bold text-[--primary-dark]'>ABOUT US</h2>
