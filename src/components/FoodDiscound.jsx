@@ -2,7 +2,7 @@ import Button from "./Button"
 
 const FoodDiscound = () =>{
     return (
-      <section className={`bg-[url(/assets/breadbg.png)] h-[60vh] bg-center bg-cover bg-no-repeat text-[--primary-dark]`}>
+      <section className={`bg-[url(/assets/breadbg.png)] h-[60vh] bg-center bg-cover bg-no-repeat text-[--primary-dark] bg-fixed`}>
         <div className="flex flex-col gap-4 pr-[60px] pt-[60px] text-end">
         <h4 className="text-3xl font-bold">Special</h4>
         <h2 className="text-5xl font-extrabold">Sale 50% Discound</h2>

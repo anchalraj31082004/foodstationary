@@ -2,7 +2,7 @@ import Button from "./Button"
 
 const PricingCard = (props) => {
   return (
-    <section className="flex flex-col mt-28">
+    <section className="flex flex-col mt-28 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
       <div className="flex flex-col gap-2 bg-[--secondary-light] py-10 px-16 text-white rounded-tl-2xl  ">
         <h4 className="text-4xl font-medium">{props.text}</h4>
         <h2 className="text-4xl font-bold">{props.num}</h2>
